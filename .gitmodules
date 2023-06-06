@@ -1,0 +1,9 @@
+[submodule "third_party/third_party/spconv"]
+	path = third_party/third_party/spconv
+	url = https://github.com/jy603/spconv
+[submodule "third_party/spconv"]
+	path = third_party/spconv
+	url = https://github.com/jy603/spconv
+[submodule "third_party/Cylinder3D"]
+	path = third_party/Cylinder3D
+	url = https://github.com/jy603/Cylinder3D
