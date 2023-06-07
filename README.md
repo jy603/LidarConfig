@@ -6,7 +6,7 @@ This repository is the official implementation of [Analysis of LiDAR Configurati
 ---
 ## Environment Setup
 
-We recommend creating a new virtual environment for running the code. This can be achieved using either Anaconda, Mamba, or pip.
+We recommend creating a new virtual environment for running the code. This can be achieved using either Anaconda, Mamba.
 
 - **Anaconda**
 ```setup
