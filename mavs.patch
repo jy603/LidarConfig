@@ -1,0 +1,257 @@
+diff --git a/data/ecosystem_files/american_pine_forest.json b/data/ecosystem_files/american_pine_forest.json
+index 3175e3c..afc76f8 100644
+--- a/data/ecosystem_files/american_pine_forest.json
++++ b/data/ecosystem_files/american_pine_forest.json
+@@ -3,16 +3,29 @@
+ 
+ 	"Surface Mesh": "scenes/meshes/surfaces/surface.obj",
+ 	
+-	"Anvel Replay File": "waypoints/vehicle2_pos_1.vprp",
++	"Anvel Replay File": "waypoints/euro_ncap_path.vprp",
++	
+ 	
+ 	"Trail Properties": {
+-		"Tire Width": 0.6,
+-		"Wheelbase": 2.5,
++		"Tire Width": 0.35,
++		"Wheelbase": 1.2,
+ 		"Ground Clearance": 0.0001,
+ 		"Trail Width": 4.5
+-	},
+-
++		},
++	
+   "Species": [
++    {
++      "Mesh File": "urban/roadblock/RoadBlockade_02.obj",
++      "Species Name": "Roadblock",
++      "Num New Per Area":0.001,
++      "Growth Rate": 1.0,
++      "Max Height": 0.9,
++      "Min Height": 0.8,
++      "Mesh Height": 0.8,
++      "Height To Diameter Ratio": 0.5,
++      "Max Age": 50, 
++      "Rotate Mesh": true	
++    },  
+     {
+       "Mesh File": "vegetation/USA_East/EA12m.obj",
+       "Species Name": "Eastern White Pine medium",
+@@ -149,4 +162,4 @@
+       "Rotate Mesh": false
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/data/ecosystem_files/american_southeast_forest.json b/data/ecosystem_files/american_southeast_forest.json
+index 2b61713..8d40a4a 100644
+--- a/data/ecosystem_files/american_southeast_forest.json
++++ b/data/ecosystem_files/american_southeast_forest.json
+@@ -271,4 +271,4 @@
+ 		"Rotate Mesh": false	
+ 		}
+ 	]
+-}
+\ No newline at end of file
++}
+diff --git a/data/ecosystem_files/american_southeast_forest_obstacles.json b/data/ecosystem_files/american_southeast_forest_obstacles.json
+index e2b2459..7e8af6f 100644
+--- a/data/ecosystem_files/american_southeast_forest_obstacles.json
++++ b/data/ecosystem_files/american_southeast_forest_obstacles.json
+@@ -6,12 +6,11 @@
+ 	"Anvel Replay File": "waypoints/vehicle2_pos_1.vprp",
+ 	
+ 	"Trail Properties": {
+-		"Tire Width": 0.6,
+-		"Wheelbase": 2.5,
++		"Tire Width": 0.35,
++		"Wheelbase": 1.2,
+ 		"Ground Clearance": 0.0001,
+ 		"Trail Width": 4.5
+-	},
+-	
++		},
+ 	"Species":[
+ 		{
+ 		"Mesh File": "urban/roadblock/RoadBlockade_02.obj",
+@@ -64,4 +63,4 @@
+ 		"Rotate Mesh": false	
+ 		}
+ 	]
+-}
+\ No newline at end of file
++}
+diff --git a/data/ecosystem_files/american_southeast_meadow.json b/data/ecosystem_files/american_southeast_meadow.json
+index 1001921..9f12558 100644
+--- a/data/ecosystem_files/american_southeast_meadow.json
++++ b/data/ecosystem_files/american_southeast_meadow.json
+@@ -3,19 +3,29 @@
+ 	
+ 	"Surface Mesh": "scenes/meshes/surfaces/surface.obj",
+ 	
+-	"Anvel Replay File": "waypoints/vehicle2_pos_1.vprp",
++	"Anvel Replay File": "waypoints/valley_explore.vprp",
+ 	
+ 	
+-	"Simulation Length": 7,
+-	
+ 	"Trail Properties": {
+-		"Tire Width": 0.6,
+-		"Wheelbase": 2.5,
++		"Tire Width": 0.35,
++		"Wheelbase": 1.2,
+ 		"Ground Clearance": 0.0001,
+ 		"Trail Width": 4.5
+-	},
++		},
+ 	
+ 	"Species":[
++	{
++		"Mesh File": "urban/roadblock/RoadBlockade_02.obj",
++		"Species Name": "Roadblock",
++		"Num New Per Area":0.001,
++		"Growth Rate": 1.0,
++		"Max Height": 0.9,
++		"Min Height": 0.8,
++		"Mesh Height": 0.8,
++		"Height To Diameter Ratio": 0.5,
++		"Max Age": 50, 
++		"Rotate Mesh": true	
++		},
+ 		{
+ 		"Mesh File": "vegetation/Groundcover/GC09_1.obj",
+ 		"Species Name": "Cleavers 1",
+@@ -197,4 +207,4 @@
+ 		"Rotate Mesh": false	
+ 		}
+ 	]
+-}
+\ No newline at end of file
++}
+diff --git a/data/ecosystem_files/country_road.json b/data/ecosystem_files/country_road.json
+index 5818b08..28d500a 100644
+--- a/data/ecosystem_files/country_road.json
++++ b/data/ecosystem_files/country_road.json
+@@ -3,16 +3,28 @@
+ 
+ 	"Surface Mesh": "scenes/meshes/surfaces/surface.obj",
+ 	
+-	"Anvel Replay File": "waypoints/vehicle2_pos_1.vprp",
++	"Anvel Replay File": "waypoints/valley_explore.vprp",
+ 	
+ 	"Trail Properties": {
+-		"Tire Width": 0.6,
+-		"Wheelbase": 2.5,
++		"Tire Width": 0.35,
++		"Wheelbase": 1.2,
+ 		"Ground Clearance": 0.0001,
+-		"Trail Width": 5.0
++		"Trail Width": 4.5
+ 	},
+ 	
+ 	"Species":[
++		{
++		"Mesh File": "urban/roadblock/RoadBlockade_02.obj",
++		"Species Name": "Roadblock",
++		"Num New Per Area":0.001,
++		"Growth Rate": 1.0,
++		"Max Height": 0.9,
++		"Min Height": 0.8,
++		"Mesh Height": 0.8,
++		"Height To Diameter Ratio": 0.5,
++		"Max Age": 50, 
++		"Rotate Mesh": true	
++		},
+ 		{
+ 		"Mesh File": "vegetation/USA_East/EA12y.obj",
+ 		"Species Name": "Eastern White Pine young",
+@@ -146,4 +158,4 @@
+ 		"Rotate Mesh": false	
+ 		}
+ 	]
+-}
+\ No newline at end of file
++}
+diff --git a/src/mavs_c_defs.cpp b/src/mavs_c_defs.cpp
+index 97ff695..3053c69 100644
+--- a/src/mavs_c_defs.cpp
++++ b/src/mavs_c_defs.cpp
+@@ -1648,7 +1648,38 @@ EXPORT_CMD mavs::sensor::Sensor* NewMavsLidar(char* senstype) {
+ 	else if (model == "RS32") {
+ 		lidar = new mavs::sensor::lidar::Rs32;
+ 	}
+-	else {
++
++	// for SPIE experiments
++	else if (model == "VLP-16-FOV-HIGH") {
++		lidar = new mavs::sensor::lidar::Lidar;
++		lidar->Load("/home/jinhee/mavs/data/sensors/lidar/SPIE-vlp16/vlp-16-fov-high.json");
++	}
++	else if (model == "VLP-16-FOV-LOW"){
++		lidar = new mavs::sensor::lidar::Lidar;
++		lidar->Load("/home/jinhee/mavs/data/sensors/lidar/SPIE-vlp16/vlp-16-fov-low.json");
++	}
++	else if (model == "VLP-16-RANGE-150"){
++		lidar = new mavs::sensor::lidar::Lidar;
++		lidar->Load("/home/jinhee/mavs/data/sensors/lidar/SPIE-vlp16/vlp-16-range150.json");
++	}
++	else if (model == "VLP-16-RANGE-200"){
++		lidar = new mavs::sensor::lidar::Lidar;
++		lidar->Load("/home/jinhee/mavs/data/sensors/lidar/SPIE-vlp16/vlp-16-range200.json");
++	}
++	else if (model == "VLP-16-VRES32"){
++		lidar = new mavs::sensor::lidar::Lidar;
++		lidar->Load("/home/jinhee/mavs/data/sensors/lidar/SPIE-vlp16/vlp-16-vres32.json");
++	}
++	else if (model == "VLP-16-VRES64"){
++		lidar = new mavs::sensor::lidar::Lidar;
++		lidar->Load("/home/jinhee/mavs/data/sensors/lidar/SPIE-vlp16/vlp-16-vres64.json");
++	}
++	else if (model == "VLP-32"){
++		lidar = new mavs::sensor::lidar::Lidar;
++		lidar->Load("/home/jinhee/mavs/data/sensors/lidar/SPIE-vlp16/vlp-32.json");
++	}
++
++	else{
+ 		lidar = new mavs::sensor::lidar::Hdl32E;
+ 	}
+ 	return lidar;
+diff --git a/src/sensors/lidar/hdl32e.cpp b/src/sensors/lidar/hdl32e.cpp
+index 9746678..e2822aa 100644
+--- a/src/sensors/lidar/hdl32e.cpp
++++ b/src/sensors/lidar/hdl32e.cpp
+@@ -24,7 +24,7 @@ namespace lidar{
+ 
+ Hdl32E::Hdl32E(){
+   SetBeamSpotRectangular(0.0033f, 0.0007f);
+-  SetScanPattern(-180.0f,180.0f-0.17f,0.17f,-30.6623f,10.67f,1.3333f);
++  SetScanPattern(-180.0f,180.0f-0.2f,0.2f,-25.0f,15.0f,1.3333f);
+   SetTimeStep(0.1f);
+   rotation_rate_ = 10.0f;
+   max_range_ = 100.0f;
+diff --git a/src/sensors/lidar/os1.cpp b/src/sensors/lidar/os1.cpp
+index 823a377..999e7a3 100644
+--- a/src/sensors/lidar/os1.cpp
++++ b/src/sensors/lidar/os1.cpp
+@@ -24,7 +24,7 @@ namespace lidar{
+ OusterOS1::OusterOS1(){
+ 	SetBeamSpotCircular((float)(0.18*mavs::kDegToRad));
+   SetRotationRate(10.0,1024);
+-  max_range_ = 125.0;
++  max_range_ = 120.0;
+   min_range_ = 0.5;
+ }
+ 
+@@ -48,9 +48,9 @@ void OusterOS1::SetRotationRate(float rot_hz, int mode){
+ 	rotation_rate_ = rot_hz;
+ 	float res = 360.0f / (1.0f*mode);
+ 	//float vres = 33.2f / 64.0f;
+-	float vres = 31.6f/63.0f;
++	float vres = 45.6f/63.0f;
+   //SetScanPattern(-180.0f,180.0f-res,res,-16.6f,16.6f,vres);
+-  SetScanPattern(-180.0f,180.0f-res,res,-15.8f,15.8f,vres);
++  SetScanPattern(-180.0f,180.0f-res,res,-22.5f,22.5f,vres);
+   SetTimeStep(1.0/rot_hz);
+ }
+ 
