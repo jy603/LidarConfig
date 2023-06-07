@@ -1,0 +1,18 @@
+{
+	"Scan Pattern": {
+	    "Horizontal Range": [-180,180],
+	    "Horizontal Step": 0.2,
+		"Vertical Range": [-15,15],
+    	"Vertical Step": 2.0
+	},
+
+	"Mode": 1,
+
+	"Beam Properties":{
+	    "Shape": "rectangle",
+	    "Divergence":  [0.0033, 0.0007]
+	},
+
+	"Max Range": 200.0,
+	"Min Range": 1.0
+}
