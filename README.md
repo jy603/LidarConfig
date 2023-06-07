@@ -45,7 +45,7 @@ mv scene_files ../scene_files
 6. In every mavs_scene{scene_number}_scene.json file, change the path of "PathToMeshes" and "Layers" according to your path to the mavs directory. For example, if your path to the mavs directory is /home/user/mavs, then the path of "PathToMeshes" and "Layers" should be "/home/user/mavs/data/scenes/meshes/" and "/home/user/mavs/data/scenes/meshes/surface_textures/meadow_surfaces.json", respectively.
 
 7. To create the simulated dataset used in this paper, navigate to each sequence folder within the simulated_datasets directory and run my_lidar_trainer.ipynb files for each scene; make sure to replace {your mavs path} in the line sys.path.append(r'{your mavs path}/src/mavs_python/') with your actual path to MAVS. Once you've generated the all datasets, the final file structure should look like this:
-```bash
+```text
 ./
 └── simulated_datasets
     ├──   Original VLP-16
@@ -114,7 +114,7 @@ mv scene_files ../scene_files
     │   └── 0.4
     ├── VLP-16-diff-pos
     │   ├── down
-    │   ├── left
+    │   ├── left s
     │   ├── right
     │   └── up
     ├── VLP-16-diff-Range
@@ -139,7 +139,7 @@ mv scene_files ../scene_files
 - Ouster LiDAR Split File
 
 2. Split the datasets into training(00), validation(01), and test(02) by running bash files in the "utils" directory. You should change the paths in the bash files according to your directory structure. The final file structure should look like this:
-```bash
+```text
 ./
 ├── 
 └── path_to_data_shown_in_config/
