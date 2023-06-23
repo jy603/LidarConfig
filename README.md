@@ -1,7 +1,7 @@
 # Analysis of LiDAR Configurations on Off-road Semantic Segmentation Performance
 
 
-This repository is the official implementation of [Analysis of LiDAR Configurations on Off-road Semantic Segmentation Performance](https://will-be-added-later).
+This repository is the official implementation of [Analysis of LiDAR Configurations on Off-road Semantic Segmentation Performance]([https://will-be-added-later](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12540/2663098/Analysis-of-LiDAR-configurations-on-off-road-semantic-segmentation-performance/10.1117/12.2663098.short)).
 
 ---
 ## Environment Setup
@@ -172,3 +172,20 @@ Our code is based on the following repositories:
 ---
 ## Citing Our Work
 We appreciate your support! If you find our code helpful in your research or work, please consider citing our paper.
+
+```bibtext
+@inproceedings{10.1117/12.2663098,
+author = {Jinhee Yu and Jingdao Chen and Lalitha Dabbiru and Christopher T. Goodin},
+title = {{Analysis of LiDAR configurations on off-road semantic segmentation performance}},
+volume = {12540},
+booktitle = {Autonomous Systems: Sensors, Processing, and Security for Ground, Air, Sea, and Space Vehicles and Infrastructure 2023},
+editor = {Michael C. Dudzik and Stephen M. Jameson and Theresa J. Axenson},
+organization = {International Society for Optics and Photonics},
+publisher = {SPIE},
+pages = {1254003},
+keywords = {LiDAR , autonomous vehicles, semantic segmentation},
+year = {2023},
+doi = {10.1117/12.2663098},
+URL = {https://doi.org/10.1117/12.2663098}
+}
+```
