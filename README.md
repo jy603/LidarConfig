@@ -1,7 +1,7 @@
 # Analysis of LiDAR Configurations on Off-road Semantic Segmentation Performance
 
 
-This repository is the official implementation of [Analysis of LiDAR Configurations on Off-road Semantic Segmentation Performance](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12540/2663098/Analysis-of-LiDAR-configurations-on-off-road-semantic-segmentation-performance/10.1117/12.2663098.short).
+This repository is the official implementation of [Analysis of LiDAR Configurations on Off-road Semantic Segmentation Performance](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12540/2663098/Analysis-of-LiDAR-configurations-on-off-road-semantic-segmentation-performance/10.1117/12.2663098.short). You can find the paper [here](https://arxiv.org/abs/2306.16551).
 
 ---
 ## Environment Setup
